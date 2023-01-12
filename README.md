@@ -1,2 +1,2 @@
 # project_dog_classification
- 
+Built a pipeline to first detect a human or dog in a user provided image using OpenCV's implementation of Haar-cascade classifiers and VGG-16. Then predicted the breed of the dog or the most resembling dog breed of the human face by a CNN model. Implemented transfer learning in PyTorch by using Densenet121 model as a feature extractor and training a data-set specific classifier to achieve 84% test accuracy for detecting correct dog breed based on a dataset consists of 133 dog breeds.
